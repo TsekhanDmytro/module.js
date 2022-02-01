@@ -85,7 +85,7 @@
 // let lastName = 'Цехан'
 // let firstName ='Дмитро'
 // let middleName = 'Андрійович'
-// let person = [lastName+' '+firstName+' '+middleName]
+// let person = (lastName+' '+firstName+' '+middleName)
 // alert(person)
 
 
