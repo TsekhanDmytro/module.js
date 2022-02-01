@@ -82,11 +82,11 @@
 
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
 //
-let lastName = 'Цехан'
-let firstName ='Дмитро'
-let middleName = 'Андрійович'
-let person = [lastName+' '+firstName+' '+middleName]
-alert(person)
+// let lastName = 'Цехан'
+// let firstName ='Дмитро'
+// let middleName = 'Андрійович'
+// let person = [lastName+' '+firstName+' '+middleName]
+// alert(person)
 
 
 
