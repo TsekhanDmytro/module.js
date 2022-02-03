@@ -70,7 +70,7 @@
 // результат помістіть у змінну v.
 // let heightC =10
 // let dC = 4
-// let v = let v = PI * Math.pow(dC / 2, 2) * heightC
+// let v = Math.PI * Math.pow(dC / 2, 2) * heightC
 // console.log(v)
 
 
