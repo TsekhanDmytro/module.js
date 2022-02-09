@@ -142,12 +142,12 @@
 
 
 
-//     1. перебрати його циклом while
+    // 1. перебрати його циклом while
 // let array=[2,17,13,6,22,31,45,66,100,-18]
-// i = 0
+// let i = 0
 // while (i<array.length) {
 //     document.write(`<div>${array[i]}</div>`)
-//     i++
+// i++
 // }
 
 //     2. перебрати його циклом for
@@ -159,7 +159,7 @@
 
 // 3. перебрати циклом while та вивести  числа тільки з непарним індексом
 // let array=[2,17,13,6,22,31,45,66,100,-18]
-// i=0
+// let i=0
 // while (i< array.length){
 //     if (i%2 === 0){
 //         document.write(`<div>${array[i]}</div>`)
@@ -178,7 +178,7 @@
 // 5. перебрати циклом while та вивести  числа тільки парні  значення
 
 // let array=[2,17,13,6,22,31,45,66,100,-18]
-// i=0
+// let i=0
 // while (i< array.length){
 //     if (i%2 ===1){
 //         document.write(`<div>${array[i]}</div>`)
@@ -214,7 +214,7 @@
 
 //     1. перебрати його циклом while(реверс)
 // let array=[2,17,13,6,22,31,45,66,100,-18]
-// i = array.length -1
+// let i = array.length -1
 // while (i>=0) {
 //     document.write(`<div>${array[i]}</div>`)
 //     i--
@@ -228,7 +228,7 @@
 
 // 3. перебрати циклом while та вивести  числа тільки з непарним індексом (реверс)
 // let array=[2,17,13,6,22,31,45,66,100,-18]
-// i= array.length -1
+// let i= array.length -1
 // while (i>0){
 //     if (i%2 === 1){
 //         document.write(`<div>${array[i]}</div>`)
