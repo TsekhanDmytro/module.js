@@ -95,7 +95,9 @@
 // 10 - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
 // function arrayRevers(arr) {
 //     let newArr = []
-//     for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+//     for (let i = arr.length - 1,
+//     ri = 0; i >= 0;
+//     i--, ri++) {
 //         newArr[ri] = arr[i]
 //     }
 //     return newArr
