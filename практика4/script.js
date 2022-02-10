@@ -45,17 +45,15 @@
 // console.log(calcSum(array))
 
 // 6 - створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
-// let array =[5,56,54,9,280,153,3]
-// function midlCalc(array){
-//     let arrayElement = 0
-//     for (let arrayElements of array) {
-//         arrayElement = arrayElements + arrayElement
-//
-//     }
-//     arrayElement = arrayElement/2
-//     return  arrayElement
-// }
-// console.log(midlCalc(array))
+let array =[5,56,54,9,280,153,3]
+function midlCalc(array){
+    let arrayElement = 0
+    for (let arrayElements of array) {
+        arrayElement = arrayElements + arrayElement
+    }
+    return  arrayElement/array.length
+}
+console.log(midlCalc(array))
 
 // 7 - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше (Math використовувати заборонено);
 // function minMax(array) {
