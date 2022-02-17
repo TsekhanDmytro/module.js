@@ -64,14 +64,15 @@
 //     let splitJoinUpper= str.split(' ').join('-').toUpperCase();
 //     return splitJoinUpper;
 // };
-// console.log(insert_dash(string));
-// document.writeln(insert_dash(str));
+// console.log(insert_dash(str));
+// document.write(insert_dash(str));
 
 // 8 - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
 // let Up = (string) => {
 //     return string[0].toUpperCase() + string.slice(1)
 // };
 // console.log(Up('перевірка перевірка'));
+//  document.write(Up('перевірка перевірка'));
 
 // 9 - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
 // let capitalize = (str) => {
