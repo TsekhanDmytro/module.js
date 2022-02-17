@@ -64,6 +64,7 @@
 //     let splitJoinUpper= str.split(' ').join('-').toUpperCase();
 //     return splitJoinUpper;
 // };
+// console.log(insert_dash(string));
 // document.writeln(insert_dash(str));
 
 // 8 - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
