@@ -33,27 +33,42 @@
 //  - Напишіть код,  котрий :
 
 // -- отримує текст з параграфа з id "content"
-// let content = document.getElementById('content').innerHTML
-// console.log(content)
+let content = document.getElementById('content').innerHTML
+console.log(content)
 
 // -- отримує текст з блоку з id "rules"
-// let rules = document.getElementById('rules').innerHTML
-// console.log(rules)
+let rules = document.getElementById('rules').innerHTML
+console.log(rules)
 
 // -- замініть текст параграфа з id 'content' на будь-який інший
-// let newContent = document.getElementById('content')
-// newContent.innerText = 'Народ, клуб фігня, розходьтесь'
+let newContent = document.getElementById('content')
+newContent.innerText = 'Народ, клуб фігня, розходьтесь'
 
 // -- замініть текст параграфа з id 'rules' на будь-який інший
-// let newRules = document.getElementById('rules')
-// newRules.innerText = 'Бути чемними, більше посміхатись, бути люблячим сімянином'
+let newRules = document.getElementById('rules');
+newRules.innerText = 'Бути чемними, більше посміхатись, бути люблячим сімянином'
 
 // -- змініть кожному елементу колір фону на червоний
-
+let bakgroundColor = document.body.children
+for (const bakgroundColorElement of bakgroundColor) {
+    bakgroundColorElement.style.background = 'red'
+}
 
 // -- змініть кожному елементу колір тексту на синій
+let textColor = document.body.children
+for (const textColorElement of textColor) {
+    textColorElement.style.color = 'blue'
+}
+
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
+let clasList = document.getElementById('rules').classList
+console.log(clasList)
+
 // -- поміняти колір тексту у всіх елементів fc_rules на червоний
+let rulseTextColor = document.getElementsByClassName('fc_rules')
+for (const rulseTextColorElement of rulseTextColor) {
+    rulseTextColorElement.style.color = 'red'
+}
 
 </script>
 
