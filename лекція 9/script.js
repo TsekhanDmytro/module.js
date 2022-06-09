@@ -4,12 +4,36 @@
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
 // - додати цей блок в body.
 // - клонувати його повністю, та додати клон в body.
+// let wrap = document.createElement('div');
+// wrap.classList.add('wrap');
+// wrap.classList.add('collapse');
+// wrap.classList.add('alpha');
+// wrap.classList.add('beta');
+// wrap.style.backgroundColor ='blue';
+// wrap.style.color ='yellow';
+// wrap.style.fontSize = '40px;'
 //
+// document.body.append(wrap)
+// let cloneWrap =  wrap.cloneNode(true)
+// document.body.append(cloneWrap)
+
+
+
 // - Є масив:
 //     ['Main','Products','About us','Contacts']
 // Взяти файл template1.html та додати в нього скріпт котрий для кожного елементу масиву створює li та додає його до блоку .menu
 // Завдання робити через цикли.
-//
+// let menuList = ['Main','Products','About us','Contacts']
+//  let menu = document.body.getElementsByClassName('menu')[0]
+// let li =document.createElement('li')
+// for (const menuItem of menuList) {
+//     let li = document.createElement('li');
+//     li.innerText = menuItem;
+//     menu.appendChild(li);
+// }
+
+
+
 // - Є масив
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
@@ -21,7 +45,12 @@
 // ];
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
-//
+
+
+
+
+
+
 // - Є масив
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
