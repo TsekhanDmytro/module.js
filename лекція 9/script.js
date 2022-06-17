@@ -178,6 +178,35 @@
 //         photo: 'https://upload.wikimedia.org/wikipedia/ru/9/9d/Maggie_Simpson.png'
 //     },
 // ];
+//
+// let title = document.createElement('div')
+// title.classList.add('member')
+// for (const simpson of simpsons) {
+//     let nameDiv = document.createElement('div')
+//     nameDiv.innerText = `Name: ${simpson.name}`
+//
+//     let surnameDiv = document.createElement('div')
+//     surnameDiv.innerText = `Surname: ${simpson.surname}`
+//
+//     let ageDiv = document.createElement('div')
+//     ageDiv.innerText = `Age: ${simpson.age}`
+//
+//     let infoDiv = document.createElement('div')
+//     infoDiv.innerText = `Info: ${simpson.info}`
+//
+//     let photoDiv = document.createElement('div')
+//     let imgDiv = document.createElement('img')
+//     imgDiv.src = simpson.photo
+//     imgDiv.alt = `${simpson.name}`
+//
+//     document.body.appendChild(title)
+//     title.appendChild(nameDiv)
+//     title.appendChild(surnameDiv)
+//     title.appendChild(ageDiv)
+//     title.appendChild(infoDiv)
+//     title.appendChild(photoDiv)
+//     photoDiv.appendChild(imgDiv)
+// }
 
 // - Є масив
 // let coursesArray = [
